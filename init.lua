@@ -1,3 +1,4 @@
-require("ExiGET.settings") -- nvim setiings 
-require("ExiGET.config.lazy") -- lazy nvim packet manager
-require("ExiGET.maps") -- key bindings 
+require("zavedeya.settings") -- nvim setiings
+require("zavedeya.config.lazy") -- lazy nvim packet manager
+require("zavedeya.maps") -- key bindings
+
