@@ -3,6 +3,10 @@ local o = vim.opt
 
 vim.env.CC = "clang"
 
+-- Font
+
+o.guifont = "Hack Nerd Font Mono:h17"
+
 -- Editor options
 
 o.number = true -- Print the line number in front of each line

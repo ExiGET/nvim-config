@@ -4,7 +4,6 @@ return {
   config = function()
     require("toggleterm").setup({
         size = 10,
-        open_mapping = [[<F7>]],
         shading_factor = 2,
         direction = "float",
         float_opts = {
@@ -15,6 +14,8 @@ return {
             },
         },
     }) 
+	
+	vim.keymap.set("n", "<leader>c", "<cmd>ToggleTerm<cr>", { desc = "Toggle Terminal" })
 
   end,
 }
